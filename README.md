@@ -1,4 +1,4 @@
-# ConnorHillen.github.io
+# Chillen.github.io
 
 Hey you! Looking at my Github! I like you. You know why? Because it's always
 good to see somebody reading the README I put so much effort into! I'm not
