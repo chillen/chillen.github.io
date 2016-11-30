@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Roboto');
-@import url('navLinks.css');
+@import url('nav-colouring.css');
 
 body {
   background-color: #111;
@@ -30,6 +30,15 @@ header nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+
+header nav a {
+  color: #ddd;
+  text-decoration: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: 0.05em;
+  font-size:1.3em;
 }
 
 #home header.title-bar {

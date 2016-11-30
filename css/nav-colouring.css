@@ -5,11 +5,6 @@
 */
 
 nav a {
-  color: #ddd;
-  text-decoration: none;
-  font-family: 'Open Sans Condensed', sans-serif;
-  letter-spacing: 0.05em;
-  font-size:1.3em;
   transition: color 0.5s, opacity: 0.5s;
   -webkit-transition: color 0.5s, opacity 0.5s;
 }
@@ -40,9 +35,4 @@ nav a.active {
 
 nav a:hover {
   opacity: 1;
-}
-
-nav a {
-  transition: color 0.5s, opacity: 0.5s;
-  -webkit-transition: color 0.5s, opacity 0.5s;
 }
