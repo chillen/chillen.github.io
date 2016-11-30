@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Roboto');
+@import url('navLinks.css');
 
 body {
   background-color: #111;
@@ -21,50 +22,15 @@ h1 {
   color: #ddd;
 }
 
+header a {
+  text-decoration: none;
+}
+
 header nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-
-nav a {
-  color: #ddd;
-  text-decoration: none;
-  font-family: 'Open Sans Condensed', sans-serif;
-  letter-spacing: 0.05em;
-  font-size:1.3em;
-  transition: color 0.5s, opacity: 0.5s;
-  -webkit-transition: color 0.5s, opacity 0.5s;
-}
-
-nav a[href="about.html"]:hover, nav a[href="about.html"].active {
-  color: #8af;
-}
-
-nav a[href="resume.html"]:hover, nav a[href="resume.html"].active {
-  color: #f8a;
-}
-
-nav a[href="projects.html"]:hover, nav a[href="projects.html"].active {
-  color: #ff8;
-}
-
-nav a[href="learn.html"]:hover, nav a[href="learn.html"].active{
-  color: #c8f;
-}
-
-nav a[href="contact.html"]:hover, nav a[href="contact.html"].active {
-  color: #af8;
-}
-
-nav a.active {
-  opacity: 0.8;
-}
-
-nav a:hover {
-  opacity: 1;
-}
-
 
 #home header.title-bar {
   text-align: center;
