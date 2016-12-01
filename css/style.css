@@ -7,7 +7,6 @@ body {
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   display: flex;
-  max-width: 80%;
   margin-left: auto;
   margin-right: auto;
   flex-grow: 0;
@@ -71,11 +70,16 @@ header .media-links a:last-of-type:after {
   flex-basis: 70%;
 }
 
+#home header.title-bar .mobile-blurb {
+  text-align: center;
+  display: none;
+}
+
 #home div.container {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 20%;
+  margin-top: 5%;
 }
 
 #home header.title-bar hr {
@@ -83,40 +87,45 @@ header .media-links a:last-of-type:after {
   min-width: 80%;
 }
 
-/* Tablet/mobile */
+#home header.title-bar .home-blurb {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: left;
+}
+
+/* Tablet and mobile */
 @media only screen and (max-width: 768px) {
-  body {
-    max-width: 95%;
-  }
+  /* Don't care about margins */
   #home header.title-bar {
     flex-grow: 1;
   }
+
+  /* Google reccommends 48px tap size */
+  header nav a {
+    min-height: 48px;
+  }
+
+}
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
   #home header h1 {
     font-size: 36px;
   }  
-  header nav {
-    flex-direction: column;
-    justify-content: space-around;
-  }
-  /* Google reccommends 48px tap size */
-  header nav a {
-    min-height: 48px;
-  }
-}
 
-@media only screen and (max-width: 768px) {
-  body {
-    max-width: 95%;
-  }
-  #home header.title-bar {
-    flex-grow: 1;
-  }
   header nav {
     flex-direction: column;
     justify-content: space-around;
   }
-  /* Google reccommends 48px tap size */
-  header nav a {
-    min-height: 48px;
+
+  #home header.title-bar .home-blurb {
+    display: none;
+  }
+
+  #home header.title-bar .mobile-blurb {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 }
