@@ -4,7 +4,7 @@
 body {
   background-color: #111;
   color: #ddd;
-  font-size: 14px;
+  font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   display: flex;
   max-width: 80%;
@@ -83,5 +83,9 @@ header .media-links a {
   header nav {
     flex-direction: column;
     justify-content: space-around;
+  }
+  /* Google reccommends 48px tap size */
+  header nav a {
+    min-height: 48px;
   }
 }
