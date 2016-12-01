@@ -40,7 +40,7 @@ header nav a {
 }
 
 header h1 {
-  font-size: 36px;
+  font-size: 48px;
 }
 
 header .media-links {
@@ -53,6 +53,15 @@ header .media-links {
 header .media-links a {
   min-height: 48px;
   min-width: 48px;
+}
+
+header .media-links a:after {
+  color: #d77;
+  content: " * ";
+}
+
+header .media-links a:last-of-type:after {
+  content: "";
 }
 
 #home header.title-bar {
@@ -75,6 +84,26 @@ header .media-links a {
 }
 
 /* Tablet/mobile */
+@media only screen and (max-width: 768px) {
+  body {
+    max-width: 95%;
+  }
+  #home header.title-bar {
+    flex-grow: 1;
+  }
+  #home header h1 {
+    font-size: 36px;
+  }  
+  header nav {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  /* Google reccommends 48px tap size */
+  header nav a {
+    min-height: 48px;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   body {
     max-width: 95%;
