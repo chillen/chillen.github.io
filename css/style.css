@@ -45,12 +45,14 @@ header h1 {
 
 header .media-links {
   display: flex;
+  text-align: center;
   flex-direction: row;
   justify-content: center;
 }
 
 header .media-links a {
-  padding: 0 5px 0 5px;
+  min-height: 48px;
+  min-width: 48px;
 }
 
 #home header.title-bar {
