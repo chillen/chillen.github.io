@@ -8,27 +8,47 @@ nav a {
   transition: color 0.5s, opacity 0.5s;
 }
 
+nav a[href="about.html"] {
+  color: #dde;
+}
+
+nav a[href="resume.html"] {
+  color: #edd;
+}
+
+nav a[href="projects.html"] {
+  color: #eed;
+}
+
+nav a[href="learn.html"]{
+  color: #ede;
+}
+
+nav a[href="contact.html"] {
+  color: #ded;
+}
+
 nav a[href="about.html"]:hover, nav a[href="about.html"].active {
-  color: #8af;
+  color: #aaf;
 }
 
 nav a[href="resume.html"]:hover, nav a[href="resume.html"].active {
-  color: #f8a;
+  color: #faa;
 }
 
 nav a[href="projects.html"]:hover, nav a[href="projects.html"].active {
-  color: #ff8;
+  color: #ffa;
 }
 
 nav a[href="learn.html"]:hover, nav a[href="learn.html"].active{
-  color: #c8f;
+  color: #faf;
 }
 
 nav a[href="contact.html"]:hover, nav a[href="contact.html"].active {
-  color: #af8;
+  color: #afa;
 }
 
-nav a.active {
+nav a:active {
   opacity: 0.8;
 }
 
