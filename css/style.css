@@ -39,6 +39,20 @@ header nav a {
   font-size: 24px;
 }
 
+header h1 {
+  font-size: 48px;
+}
+
+header .media-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+header .media-links a {
+  padding: 0 5px 0 5px;
+}
+
 #home header.title-bar {
   text-align: center;
   display: flex;
@@ -50,6 +64,7 @@ header nav a {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: 20%;
 }
 
 #home header.title-bar hr {
