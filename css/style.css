@@ -80,4 +80,8 @@ header .media-links a {
   #home header.title-bar {
     flex-grow: 1;
   }
+  header nav {
+    flex-direction: column;
+    justify-content: space-around;
+  }
 }
