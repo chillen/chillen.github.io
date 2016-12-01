@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,200|Open+Sans');
+
+/*
+ * Since I'm not using SASS or LESS, this seemingly simple code is getting
+ * convoluted. Tossing it in a separate file to keep things from getting
+ * really bad.
+*/
+
+nav a {
+  -webkit-transition: color 0.5s, opacity 0.5s;
+  transition: color 0.5s, opacity 0.5s;
+}
+
+nav a[href="about.html"]:hover,
+nav a[href="about.html"].active {
+  color: #8af;
+}
+
+nav a[href="resume.html"]:hover,
+nav a[href="resume.html"].active {
+  color: #f8a;
+}
+
+nav a[href="projects.html"]:hover,
+nav a[href="projects.html"].active {
+  color: #ff8;
+}
+
+nav a[href="learn.html"]:hover,
+nav a[href="learn.html"].active {
+  color: #c8f;
+}
+
+nav a[href="contact.html"]:hover,
+nav a[href="contact.html"].active {
+  color: #af8;
+}
+
+nav a.active {
+  opacity: 0.8;
+}
+
+nav a:hover {
+  opacity: 1;
+}
+
+body {
+  background-color: #111;
+  color: #ddd;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-flex: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 36px;
+}
+
+header a {
+  text-decoration: none;
+  color: #bbb;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+header nav a {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 24px;
+}
+
+header h1 {
+  font-size: 36px;
+}
+
+header .media-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+header .media-links a {
+  padding: 0 5px 0 5px;
+}
+
+#home header.title-bar {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-preferred-size: 70%;
+  flex-basis: 70%;
+}
+
+#home div.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 20%;
+}
+
+#home header.title-bar hr {
+  border: 1px solid #D77;
+  min-width: 80%;
+}
+
+/* Tablet/mobile */
+
+@media only screen and (max-width: 768px) {
+  body {
+    max-width: 95%;
+  }
+
+  #home header.title-bar {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+  }
+}
