@@ -5,8 +5,7 @@
 */
 
 nav a {
-  transition: color 0.5s, opacity: 0.5s;
-  -webkit-transition: color 0.5s, opacity 0.5s;
+  transition: color 0.5s, opacity 0.5s;
 }
 
 nav a[href="about.html"]:hover, nav a[href="about.html"].active {
