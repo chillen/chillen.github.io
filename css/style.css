@@ -47,10 +47,17 @@ header nav {
   flex-direction: row;
 }
 
+#home header nav a {
+  border: none;
+}
+
 
 header nav a {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 24px;
+  border-right: thick solid;
+  border-left: thick solid;
+  padding: 0px 5px 0px 5px;
 }
 
 header h1 {
@@ -80,6 +87,10 @@ header .media-links a:after {
 
 header .media-links a:last-of-type:after {
   content: "";
+}
+
+header.title-bar {
+  margin: 0 10px 0 10px;
 }
 
 #home header.title-bar {
@@ -118,6 +129,13 @@ header.title-bar hr {
   flex-direction: column;
   justify-content: space-around;
   text-align: left;
+  margin: 0 10px 0 10px;
+}
+
+body div.content {
+  display: flex;
+  flex-direction: column;
+  justiy-content: space-around;
 }
 
 
@@ -139,11 +157,15 @@ header.title-bar hr {
 @media only screen and (max-width: 480px) {
   #home header h1 {
     font-size: 36px;
-  }  
+  }
 
   header nav {
     flex-direction: column;
     justify-content: space-around;
+  }
+
+  #home header nav {
+    flex-direction: column;
   }
 
   #home header.title-bar .home-blurb {
