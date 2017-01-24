@@ -38,8 +38,13 @@ header a {
 
 header nav {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align: center;
   justify-content: space-around;
+}
+
+#home header nav {
+  flex-direction: row;
 }
 
 
@@ -49,6 +54,10 @@ header nav a {
 }
 
 header h1 {
+  font-size: 32px;
+}
+
+#home header h1 {
   font-size: 48px;
 }
 
@@ -92,7 +101,14 @@ header .media-links a:last-of-type:after {
   margin-top: 5%;
 }
 
-#home header.title-bar hr {
+div.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-top: 5%;
+}
+
+header.title-bar hr {
   border: 1px solid #D77;
   min-width: 80%;
 }
@@ -103,6 +119,7 @@ header .media-links a:last-of-type:after {
   justify-content: space-around;
   text-align: left;
 }
+
 
 /* Tablet and mobile */
 @media only screen and (max-width: 768px) {
