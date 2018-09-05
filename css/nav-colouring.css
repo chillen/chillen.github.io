@@ -9,23 +9,23 @@ nav a {
 }
 
 nav a[href="about.html"] {
-  color: #dde;
+  color: #bbf;
 }
 
 nav a[href="resume.html"] {
-  color: #edd;
+  color: #fbb;
 }
 
 nav a[href="projects.html"] {
-  color: #eed;
+  color: #ffb;
 }
 
 nav a[href="teaching.html"]{
-  color: #ede;
+  color: #fbf;
 }
 
 nav a[href="contact.html"] {
-  color: #ded;
+  color: #bfb;
 }
 
 nav a[href="about.html"]:hover, nav a[href="about.html"].active {
