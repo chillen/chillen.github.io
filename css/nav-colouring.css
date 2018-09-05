@@ -20,7 +20,7 @@ nav a[href="projects.html"] {
   color: #ffb;
 }
 
-nav a[href="teaching.html"]{
+nav a[href="education.html"]{
   color: #fbf;
 }
 
@@ -44,7 +44,7 @@ nav a[href="projects.html"]:hover, nav a[href="projects.html"].active {
   color: #ff9;
 }
 
-nav a[href="teaching.html"]:hover, nav a[href="teaching.html"].active{
+nav a[href="education.html"]:hover, nav a[href="education.html"].active{
   color: #f9f;
 }
 
