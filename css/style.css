@@ -133,6 +133,10 @@ header.title-bar .home-blurb {
 /* Tablet and mobile */
 @media only screen and (max-width: 768px) {
   /* Don't care about margins */
+  div.container {
+    
+  }
+
   header.title-bar {
     flex-grow: 1;
   }
@@ -146,15 +150,11 @@ header.title-bar .home-blurb {
 
 /* Mobile */
 @media only screen and (max-width: 480px) {
-  div.container {
-    margin: 0%;
-  }
-
   header h1 {
     font-size: 36px;
   }
 
-  header .nav-links {
+  header nav .nav-links {
     flex-direction: column;
     justify-content: center;
     align-content: space-around;
