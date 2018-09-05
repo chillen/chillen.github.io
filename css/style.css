@@ -60,9 +60,9 @@ header a {
 }
 
 header nav {
-  display: flex;
+  /*display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: center;*/
 }
 
 header nav .nav-links {
