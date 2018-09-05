@@ -20,7 +20,7 @@ nav a[href="projects.html"] {
   color: #eed;
 }
 
-nav a[href="learn.html"]{
+nav a[href="teaching.html"]{
   color: #ede;
 }
 
@@ -40,7 +40,7 @@ nav a[href="projects.html"]:hover, nav a[href="projects.html"].active {
   color: #ff9;
 }
 
-nav a[href="learn.html"]:hover, nav a[href="learn.html"].active{
+nav a[href="teaching.html"]:hover, nav a[href="teaching.html"].active{
   color: #f9f;
 }
 
@@ -54,4 +54,26 @@ nav a:active {
 
 nav a:hover {
   opacity: 1;
+}
+
+/* Colours from the old site */
+
+.text-blue {
+  color: #8af;
+}
+
+.text-red {
+  color: #f8a;
+}
+
+.text-yellow {
+  color: #ff8;
+}
+
+.text-purple {
+  color: #c8f;
+}
+
+.text-green {
+  color: #af8;
 }
