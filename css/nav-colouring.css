@@ -28,6 +28,10 @@ nav a[href="contact.html"] {
   color: #bfb;
 }
 
+nav a[href="games.html"] {
+  color: rgb(252, 196, 128);
+}
+
 nav a[href="about.html"]:hover, nav a[href="about.html"].active {
   color: #99f;
 }
@@ -46,6 +50,10 @@ nav a[href="teaching.html"]:hover, nav a[href="teaching.html"].active{
 
 nav a[href="contact.html"]:hover, nav a[href="contact.html"].active {
   color: #9f9;
+}
+
+nav a[href="games.html"]:hover, nav a[href="games.html"].active {
+  color: #fb6;
 }
 
 nav a:active {
