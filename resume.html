@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Welcome | ConnorHillen.com</title>
+    <!--Production-->
+    <!--<link rel="stylesheet" href="css/style.myth.css">-->
+    <!--Dev-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/hamburger.css">
+    <script src="https://use.fontawesome.com/23547cb754.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125320059-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-125320059-1');
+    </script>
+  </head>
+  <body>
+      <nav role="navigation">
+          <div id="menuToggle">
+            <!--
+            A fake / hidden checkbox is used as click reciever,
+            so you can use the :checked selector on it.
+            -->
+            <input type="checkbox" />
+            
+            <!--
+            Some spans to act as a hamburger.
+            
+            They are acting like a real hamburger,
+            not that McDonalds stuff.
+            -->
+            <span></span>
+            <span></span>
+            <span></span>
+            
+            <!--
+            Too bad the menu has to be inside of the button
+            but hey, it's pure CSS magic.
+            -->
+            <ul id="menu">
+              <a href="about.html"><li>About</li></a>
+              <a href="resume.html"><li>Resume</li></a>
+              <a href="projects.html"><li>Projects</li></a>
+              <a href="education.html"><li>Education</li></a>
+              <a href="games.html"><li>Games</li></a>
+              <a href="contact.html"><li>Contact</li></a>
+            </ul>
+          </div>
+        </nav>
+    <div class="flex-center">
+      <div class="container">
+        <header class="title-bar">
+          <a href="index.html"><h1>Connor Hillen</h1></a>
+          <div class="media-links">
+              <a href="https://github.com/chillen" alt="Chillen on Github"><i class="fa fa-2x fa-github" aria-hidden="true" title="Github Profile"></i></a>
+              <a href="https://www.linkedin.com/in/connorhillen/" alt="Connor Hillen on LinkedIn"><i class="fa fa-2x fa-linkedin-square" aria-hidden="true" title="LinkedIn Profile"></i></a>
+              <a href="https://twitter.com/ChillenLD" alt="ChillenLD on Twitter"><i class="fa fa-2x fa-twitter" aria-hidden="true" title="Twitter Profile"></i></a>
+              <a href="mailto:connor.hillen@gmail.com" alt="Email Me"><i class="fa fa-2x fa-envelope-o" aria-hidden="true" title="Email Me"></i></a>
+            </div>
+          <hr>
+          <nav>
+              <div class="nav-links">
+                <a href="about.html">About</a>
+                <a href="resume.html">Resume</a>
+                <a href="projects.html">Projects</a>
+                <a href="education.html">Education</a>
+                <a href="games.html">Games</a>
+                <a href="contact.html">Contact</a>
+              </div>
+              
+            </nav>
+            <hr>
+        </header>
+        <div>
+            <h2 class="text-red">Resume</h2>
+            <p>
+                This website is much overdo for an overhaul and it's currently being worked on.
+            </p>
+            <p>
+               The closest thing I have to a resume posted right now is my <a href="https://www.linkedin.com/in/connorhillen/" alt="Connor Hillen on LinkedIn">LinkedIn profile.</a> 
+               I'll try to get some kind of resume on here shortly.
+            </p>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Welcome | ConnorHillen.com</title>
+    <!--Production-->
+    <!--<link rel="stylesheet" href="css/style.myth.css">-->
+    <!--Dev-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/hamburger.css">
+    <script src="https://use.fontawesome.com/23547cb754.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125320059-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-125320059-1');
+    </script>
+  </head>
+  <body>
+      <nav role="navigation">
+          <div id="menuToggle">
+            <!--
+            A fake / hidden checkbox is used as click reciever,
+            so you can use the :checked selector on it.
+            -->
+            <input type="checkbox" />
+            
+            <!--
+            Some spans to act as a hamburger.
+            
+            They are acting like a real hamburger,
+            not that McDonalds stuff.
+            -->
+            <span></span>
+            <span></span>
+            <span></span>
+            
+            <!--
+            Too bad the menu has to be inside of the button
+            but hey, it's pure CSS magic.
+            -->
+            <ul id="menu">
+              <a href="about.html"><li>About</li></a>
+              <a href="resume.html"><li>Resume</li></a>
+              <a href="projects.html"><li>Projects</li></a>
+              <a href="education.html"><li>Education</li></a>
+              <a href="games.html"><li>Games</li></a>
+              <a href="contact.html"><li>Contact</li></a>
+            </ul>
+          </div>
+        </nav>
+    <div class="flex-center">
+      <div class="container">
+        <header class="title-bar">
+          <a href="index.html"><h1>Connor Hillen</h1></a>
+          <div class="media-links">
+              <a href="https://github.com/chillen" alt="Chillen on Github"><i class="fa fa-2x fa-github" aria-hidden="true" title="Github Profile"></i></a>
+              <a href="https://www.linkedin.com/in/connorhillen/" alt="Connor Hillen on LinkedIn"><i class="fa fa-2x fa-linkedin-square" aria-hidden="true" title="LinkedIn Profile"></i></a>
+              <a href="https://twitter.com/ChillenLD" alt="ChillenLD on Twitter"><i class="fa fa-2x fa-twitter" aria-hidden="true" title="Twitter Profile"></i></a>
+              <a href="mailto:connor.hillen@gmail.com" alt="Email Me"><i class="fa fa-2x fa-envelope-o" aria-hidden="true" title="Email Me"></i></a>
+            </div>
+          <hr>
+          <nav>
+              <div class="nav-links">
+                <a href="about.html">About</a>
+                <a href="resume.html">Resume</a>
+                <a href="projects.html">Projects</a>
+                <a href="education.html">Education</a>
+                <a href="games.html">Games</a>
+                <a href="contact.html">Contact</a>
+              </div>
+              
+            </nav>
+            <hr>
+        </header>
+        <div>
+          <h2 class="text-red">Education</h2>
+          <p>
+            This website is much overdo for an overhaul and it's currently being worked on. More information will be here soon!
+          </p>
+          <h2 class="text-green">Studies</h2>
+          <p>
+            I did my undergrad at Carleton University between 2012 and 2016 in Computer Science, Honours Robotics. My undergraduate
+            thesis had me developing emergent narrative systems by enhancing NPC dialogue.
+          </p>
+          <p>
+              I'm currently working on my masters in computer science, specifically focusing on computational creativity and data driven
+              creativity assistants for game content creation. I intend to graduate by the end of 2018.
+          </p>
+          <h2 class="text-blue">Teaching</h2>
+          <p>
+            I currently teach a summer course at Carleton University, <em>COMP4900: Intensive Game Development Project</em>. In this course,
+            I teach game design, rapid prototyping, and give a hands approach to learning how to use agile and scrum methods in game development.
+          </p>
+          <p>
+              Before instructing, I was a TA for many courses. In every course, my duties were primarily lecturing, hosting workshops, coordinating labs,
+              and of course the occasional grading. 
+              <ul>
+                    <li><strong>COMP 1406: Introduction to Computer Science</strong>: I TAd this course a number of times.
+                    We taught basic software engineering, introduction to software design, and object oriented programming.</li>
+                    <li><strong>COMP 1501: Introduction to Computer Game Design</strong>: I designed a new set of tutorials for this course
+                    and ran some evaluations on the performance of them. The new format had me lecturing a little more and getting
+                    students to learn game design concepts and put them to the test immediately in the labs.</li>
+                    <li><strong>COMP 2404: Introduction to Software Engineering</strong>: Here I focused on running C++ labs.</li>
+                    <li><strong>COMP 2801: Introduction to Mobile Autonomous Robotics</strong>: In this course, I hosted lectures to teach
+                    students about the paradigms and patterns of designing autnomous agents. The course was workshop styled, so students
+                    were lectured and then had to complete a robotics programming challenge by the end of the workshop.</li>
+                    <li><strong>COMP 3004: Object Oriented Software Engineering</strong>: This course drops students into a pretty intensive group project.
+                    My main focus with this was training the other TAs to use Qt, running quality and cohesion checks on TA grading,
+                    and hosting lecture-style office hours to teach students about software engineering from a different perspective.</li>
+                    <li><strong> COMP4107: Neural Networks</strong>: In this course, I primarily assisted students with the design and
+                    implementation of various different neural networks.</li>
+                </ul>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
