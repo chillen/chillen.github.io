@@ -110,6 +110,7 @@ div.container {
   justify-content: left;
   margin: 5%;
   max-width: 1000px;
+  flex-basis: 100%;
 }
 
 div.flex-center {
